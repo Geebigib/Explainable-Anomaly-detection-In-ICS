@@ -38,3 +38,6 @@ To replicate this process:
 
 #### Note
 The notebook mentioned above was executed on Google Colab and connected to Google Drive, where the SWaT dataset was stored. Additionally, the trained models and XAI results were saved in Google Drive for easy access and reproducibility.
+
+#### MISC
+- To explore the SWaT dataset through Exploratory Data Analysis (EDA), please refer to the notebook [SWaT_EDA.ipynb](https://github.com/Geebigib/Explainable-Anomaly-detection-In-ICS/blob/81034290a7729452c4232f76b8d0a5724f2e7763/SWaT_EDA.ipynb)
