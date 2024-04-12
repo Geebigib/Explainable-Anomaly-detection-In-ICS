@@ -8,7 +8,7 @@ This project use Secure Water Treatment (SWaT) dataset from iTrust Centre for Re
 ### Requirements
 
 - Python (version 3.0.0)
-- Jupyter Notebook/ Google Collab and Google Drive
+- Jupyter Notebook/ Google Colab and Google Drive
 - SWaT dataset
 
 ### Step 1. Model hyperparameter tuning
@@ -36,3 +36,5 @@ To replicate this process:
 - For ECOD, execute the notebook [XAI_from_ECOD.ipynb](https://github.com/Geebigib/Explainable-Anomaly-detection-In-ICS/blob/275836ed883315e6ef59074bf4588d3d7026a913/XAI_from_ECOD.ipynb)
 
 
+#### Note
+The notebook mentioned above was executed on Google Colab and connected to Google Drive, where the SWaT dataset was stored. Additionally, the trained models and XAI results were saved in Google Drive for easy access and reproducibility.
