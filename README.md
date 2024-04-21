@@ -8,8 +8,14 @@ This project use Secure Water Treatment (SWaT) dataset from iTrust Centre for Re
 ### Requirements
 
 - Python (version 3.0.0)
-- Jupyter Notebook/ Google Colab and Google Drive
+- Google Colab and Google Drive
 - SWaT dataset
+  
+### Step 0. Exploratory Data Analysis (EDA) and Data preprocessing
+To explore the SWaT dataset through Exploratory Data Analysis (EDA), please refer to the notebook [SWaT_EDA.ipynb](https://github.com/Geebigib/Explainable-Anomaly-detection-In-ICS/blob/81034290a7729452c4232f76b8d0a5724f2e7763/SWaT_EDA.ipynb)
+
+Given that the dataset deviates from the standard normal distribution, standardizing the data is not optimal. Instead, we normalize both continuous and discrete variables to a range of 0–1, aligning them with the typical behavior observed in the training set. The normalization process is implemented in the code within [the Model Training section](#step-2-model-training-threshold-selection-and-prediction-result).
+
 
 ### Step 1. Model hyperparameter tuning
 
@@ -38,6 +44,3 @@ To replicate this process:
 
 #### Note
 The notebook mentioned above was executed on Google Colab and connected to Google Drive, where the SWaT dataset was stored. Additionally, the trained models and XAI results were saved in Google Drive for easy access and reproducibility.
-
-#### MISC
-- To explore the SWaT dataset through Exploratory Data Analysis (EDA), please refer to the notebook [SWaT_EDA.ipynb](https://github.com/Geebigib/Explainable-Anomaly-detection-In-ICS/blob/81034290a7729452c4232f76b8d0a5724f2e7763/SWaT_EDA.ipynb)
